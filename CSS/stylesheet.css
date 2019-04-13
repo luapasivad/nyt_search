@@ -11,20 +11,25 @@
 .search{
     font-size: 30px;
     margin-top: 15px;
+    margin-left: 10px;
 }
 #searchByTerm{
     font-size: 25px;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
 #numberOfRecords{
     font-size: 25px;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
 #startYear{
     font-size: 25px;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
 #endYear{
     font-size: 25px;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
