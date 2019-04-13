@@ -8,6 +8,7 @@
     <!-- bootstrap -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <!-- custom css -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="CSS/reset.css" type="text/css">
     <link rel="stylesheet" href="CSS/stylesheet.css" type="text/css">
 
@@ -19,16 +20,16 @@
 <div class="container">
     <div class="header">New York Times Search</div>
 
-    <div class="search term">Search Term <br> <input type="text" id="searchByTerm" class="inputSearch"></div>
-    <div class="search number">Number of Records <br> 
+    <div class="search term">search term <br> <input type="text" id="searchByTerm" class="inputSearch"></div>
+    <div class="search number">number of records <br> 
         <select type="text" id="numberOfRecords" class="inputSearch">
             <option value="1">1</option>
             <option value="5">5</option>
             <option value="10">10</option>
         </select>
     </div>
-    <div class="search">Start Year<br> <input type="text" id="startYear" class="inputSearch"></div>
-    <div class="search">End Year<br> <input type="text" id="endYear" class="inputSearch"></div>
+    <div class="search">start year<br> <input type="text" id="startYear" class="inputSearch"></div>
+    <div class="search">end year<br> <input type="text" id="endYear" class="inputSearch"></div>
 
     <button id="searchButton">Search</button> <button id="clearButton">Clear</button>
 
@@ -55,6 +56,9 @@
 
 
 </script>
+
+<script type="text/javascript" src="java.js"></script>
+
 
 </body> 
 
