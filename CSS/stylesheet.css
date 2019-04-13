@@ -1,11 +1,30 @@
-.inputSearch {
-    width: 50%;
-}
-
 .header{
-    margin-bottom: 10%;
+    width:100%;
+    text-align: center;
+    color:white;
+    background-color: navy;
+    padding-top:50px;
+    height:150px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-.search {
-    margin-bottom: 2%;
+.search{
+    font-size: 30px;
+    margin-top: 15px;
+}
+#searchByTerm{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#numberOfRecords{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#startYear{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#endYear{
+    font-size: 25px;
+    margin-bottom: 15px;
 }
