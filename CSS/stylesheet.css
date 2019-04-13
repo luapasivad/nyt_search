@@ -10,26 +10,35 @@
 }
 .search{
     font-size: 30px;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 #searchByTerm{
     font-size: 25px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+    margin-bottom: 1%;
+    margin-left: 1%;
 }
 #numberOfRecords{
     font-size: 25px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+    margin-bottom: 1%;
+    margin-left:1%;
 }
 #startYear{
     font-size: 25px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+    margin-bottom: 1%;
+    margin-left: 1%;
 }
 #endYear{
     font-size: 25px;
-    margin-bottom: 15px;
-    margin-left: 10px;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+#searchButton{
+    margin-left: 1%;
+}
+#clearButton{
+    margin-left: 1%;
+}
+#articlesView{
+    background-color: rgb(109, 108, 108);
 }
