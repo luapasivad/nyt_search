@@ -10,7 +10,6 @@ $('#searchButton').on("click", function() {
   }).then(function(response) {
       console.log(response);
 
-
   })
 });
 
