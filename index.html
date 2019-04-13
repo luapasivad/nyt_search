@@ -19,13 +19,27 @@
 <div class="container">
     <div class="header">New York Times Search</div>
 
-    <div class="search">search term <br> <input type="text" id="searchByTerm" class="inputSearch"></div>
-    <div class="search">number of records <br> <input type="text" id="numberOfRecords" class="inputSearch"></div>
+    <div class="search term">search term <br> <input type="text" id="searchByTerm" class="inputSearch"></div>
+    <div class="search number">number of records <br> 
+        <select type="text" id="numberOfRecords" class="inputSearch">
+            <option value="1">1</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+        </select>
+    </div>
     <div class="search">start year<br> <input type="text" id="startYear" class="inputSearch"></div>
     <div class="search">end year<br> <input type="text" id="endYear" class="inputSearch"></div>
 
-    <button id="searchButton">Search</button>
+    <button id="searchButton">Search</button> <button id="clearButton">Clear</button>
+
+    <div id="articlesView">
+
+        this is where articles go
+
+
+    </div>
     
+
 </div>
 
 
